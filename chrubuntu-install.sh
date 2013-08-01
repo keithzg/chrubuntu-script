@@ -23,7 +23,7 @@ fi
 fw_type="`crossystem mainfw_type`"
 if [ ! "$fw_type" = "developer" ]
   then
-    echo -e "\nYou're Chromebook is not running a developer BIOS!"
+    echo -e "\nYour Chromebook is not running a developer BIOS!"
     echo -e "You need to run:"
     echo -e ""
     echo -e "sudo chromeos-firmwareupdate --mode=todev"
